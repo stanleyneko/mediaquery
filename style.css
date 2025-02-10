@@ -1,9 +1,28 @@
 ul {
   padding-left: 0px;
   list-style: none;
-  display: flex;
+  text-align: right;
 }
 
 li {
   list-style: none;
+  padding: 20px;
+  display: inline;
+}
+
+header {
+  padding-top: 10px;
+}
+
+body {
+  text-align: center;
+  border: solid 1px yellow;
+}
+
+#maintxt {
+  border: solid 10px red;
+}
+
+table {
+  border: solid 3px black;
 }
