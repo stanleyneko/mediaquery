@@ -17,6 +17,7 @@ header {
 body {
   text-align: center;
   border: solid 1px yellow;
+  font-family: "GL-Tsukiji-5go";
 }
 
 #maintxt {
@@ -25,4 +26,12 @@ body {
 
 table {
   border: solid 3px black;
+}
+
+/*スマホ用*/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+    font-size: 14px;
+  }
 }
