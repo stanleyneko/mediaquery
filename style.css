@@ -17,7 +17,6 @@ header {
 body {
   text-align: center;
   border: solid 1px yellow;
-  font-family: "GL-Tsukiji-5go";
 }
 
 #maintxt {
@@ -33,4 +32,50 @@ table {
   body {
     background-color: pink;
   }
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+label {
+  /*これでフォームが縦並びになる*/
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#radio {
+  display: inline;
+  align-items: center;
+  padding: 10px;
+}
+
+#submit {
+  display: block;
 }
